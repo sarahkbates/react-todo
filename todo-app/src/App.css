@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  font-family: cursive;
+  background-color: darkorchid;
+  height: 100vh
+}
+
+.todoHeader{
+  background-color: darkturquoise;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 5rem;
+  color: darkorchid;
+}
+
+.todo-List{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.addTaskForm{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.taskInput{
+  width: 300px;
+  height: 25px;
+  border-radius: 5px;
+  border: none;
+  margin: 20px;
+  padding: 10px;
+  font-size: 1rem;
+  font-family: cursive;
+}
+
+.taskInput:focus{
+  box-shadow: 0 0 5px 2px darkorchid;
+}
+
+.addTaskBtn{
+  height: 45px;
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+  background-color: darkturquoise;
+  font-family: cursive;
+  font-size: 1rem;
+}
+
+.addTaskBtn:hover{
+  background-color: darkslategray;
+}
+
